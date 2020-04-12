@@ -17,26 +17,26 @@ const Layout = ({ children, title, description }) => (
       </nav>
       {children}
     </div>
-    <style jxs>{`
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            background: #f6f6ef;
-        }
-        nav {
-            background: #f60;
-            padding: 1em;
-        }
-        nav > * {
-            display: inline-block;
-            color: black;
-        }
-        nav a {
-            text-decoration: none;
-        }
-        nav .main-title {
-            font-weight: bold;
-        }
+    <style jsx>{`
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        background: #f6f6ef;
+      }
+      nav {
+        background: #f60;
+        padding: 1em;
+      }
+      nav > * {
+        display: inline-block;
+        color: black;
+      }
+      nav a {
+        text-decoration: none;
+      }
+      nav .main-title {
+        font-weight: bold;
+      }
     `}</style>
     <style global jsx>{`
       body {
