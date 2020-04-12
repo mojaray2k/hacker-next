@@ -1,2 +1,3 @@
-# hacker-next
-Hacker News Progressive Web App Built Using React and Next
+# Hacker Next
+
+A Hacker News clone made with React and Next.js

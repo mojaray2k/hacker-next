@@ -1,0 +1,25 @@
+{
+  "name": "hacker-next",
+  "version": "1.0.0",
+  "description": "A Hacker News clone made with Next.js",
+  "main": "server.js",
+  "scripts": {
+    "dev": "next -p 3115"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mojaray2k/hacker-next.git"
+  },
+  "author": "Amen Ra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mojaray2k/hacker-next/issues"
+  },
+  "homepage": "https://github.com/mojaray2k/hacker-next#readme",
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.1",
+    "next": "^9.3.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
